@@ -1,0 +1,172 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>How to choose you Technical Stack · Bractal</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;figure name=&quot;2664&quot; id=&quot;2664&quot; class=&quot;graf graf--figure graf-after--h3&quot;&gt;"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="How to choose you Technical Stack · Bractal"/><meta property="og:type" content="website"/><meta property="og:url" content="https://your-docusaurus-test-site.com/blog/2018/11/11/how-to-choose-you-tech-stack"/><meta property="og:description" content="&lt;figure name=&quot;2664&quot; id=&quot;2664&quot; class=&quot;graf graf--figure graf-after--h3&quot;&gt;"/><meta property="og:image" content="https://your-docusaurus-test-site.com/img/docusaurus.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://your-docusaurus-test-site.com/img/docusaurus.png"/><link rel="shortcut icon" href="/img/favicon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://your-docusaurus-test-site.com/blog/atom.xml" title="Bractal Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://your-docusaurus-test-site.com/blog/feed.xml" title="Bractal Blog RSS Feed"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/logo-icon.png" alt="Bractal"/><h2 class="headerTitleWithLogo">Bractal</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/help" target="_self">Help</a></li><li class=""><a href="/ideas" target="_self">Ideas</a></li><li class="siteNavGroupActive"><a href="/blog/" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Recent Posts</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Recent Posts</h3><ul class=""><li class="navListItem navListItemActive"><a class="navItem" href="/blog/2018/11/11/how-to-choose-you-tech-stack">How to choose you Technical Stack</a></li><li class="navListItem"><a class="navItem" href="/blog/2018/11/11/design-for-re-use">Design for Re-use</a></li><li class="navListItem"><a class="navItem" href="/blog/2018/11/07/non-blocking-git-flow">Non-blocking Git-flow</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer postContainer blogContainer"><div class="wrapper"><div class="lonePost"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle"><a href="/blog/2018/11/11/how-to-choose-you-tech-stack">How to choose you Technical Stack</a></h1><p class="post-meta">November 11, 2018</p><div class="authorBlock"><p class="post-authorName"><a href="https://www.facebook.com/mostafa.El.ganainy.2" target="_blank" rel="noreferrer noopener">Mostafa Elganainy</a></p><div class="authorPhoto"><a href="https://www.facebook.com/mostafa.El.ganainy.2" target="_blank" rel="noreferrer noopener"><img src="https://graph.facebook.com/648262785/picture/?height=200&amp;width=200" alt="Mostafa Elganainy"/></a></div></div></header><div><span><figure name="2664" id="2664" class="graf graf--figure graf-after--h3">
+<canvas class="progressiveMedia-canvas js-progressiveMedia-canvas" width="75" height="37"></canvas>
+<p><img src="https://cdn-images-1.medium.com/max/1000/1*bQMdaHrbdFo2827cwqculw.png" alt=""></p>
+<p><noscript class="js-progressiveMedia-inner"><img src="https://cdn-images-1.medium.com/max/1000/1*bQMdaHrbdFo2827cwqculw.png" alt=""></noscript></p>
+</figure>
+<p>So, you’ve closed the deal for a big nice &amp; challenging project. Or your company
+is building a number of internal new products and you got assigned the
+responsibility to kickstart the product development phase.</p>
+<!--truncate-->
+<p>If you’re starting the above stories, each time with a clean slate, then this
+article might be of some help for you.</p>
+<p>In this article we will go through how we have chosen a Technology Stack, and
+why we have decided to stick around for a while.</p>
+<h4><a class="anchor" aria-hidden="true" id="cost-of-project-kickstart"></a><a href="#cost-of-project-kickstart" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Cost of project kickstart</h4>
+<p>If you’re a Microsoft fan-boy or RoR serial killer, then this might not be a big
+deal for you. There is almost one known and recommended way, to start any
+project. But if you live in the Javascript death Arena, just like us, then this
+might be a pain in the *** each time you’re starting a new project.</p>
+<p>With Javascript’s extremely fragmented world, starting a new project from
+scratch is usually a nightmare. With endless amount of options, and new
+library/framework being created every few minutes. There is an extremely high
+probability that you have gone through analysis paralysis while you were
+selecting the stack for your new project. And you probably stayed for few weeks
+like a kid in a candy store, while looking for your perfect tool.</p>
+<h4><a class="anchor" aria-hidden="true" id="our-approach"></a><a href="#our-approach" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Our approach</h4>
+<p>Well, we have been through that pain before, and unfortunately there is no way
+that you wouldn’t go through it as long as you’ve chosen to go through
+Javascript (Which seems inevitable nowadays). The best you can do is sticking to
+an option (once you found a reasonable one), and stick to it for few years (2–3
+years sounds reasonable).</p>
+<p>Choosing the Technology stack of choice is a black art though. There is not a
+silver pullet here. But we’ll present our approach to do it.</p>
+<p>After choosing the Technology Stack, you’ll be faced by the challenge of how to
+reduce the cost of each new project you build with your chosen Technology Stack.
+Which is subject of our next article in this series.</p>
+<h4><a class="anchor" aria-hidden="true" id="choosing-a-technology-stack"></a><a href="#choosing-a-technology-stack" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Choosing a Technology Stack</h4>
+<p>We have gone through two steps iteratively to choose our stack. We used
+iterative deepening approach, where we researched on surface till we chosen the
+main direction. And after inspecting shallowly all directions, we went inside
+each direction for a more detailed research or prototyping. Eliminating some
+main options as we go, and deciding to go further into others. Till we ended up
+with 1 selected main technology, where we kept digging deeper to find the fine
+details of the big image. And so on. At the heart of that process, there have
+been always two main steps :</p>
+<p>**Research Step :</p>
+<p>**Prototyping Step :<br>
+**This is not a completely separate step, rather we have gone through some
+really quick experiments to validate our research finding. Either leading to
+more research needed for an option. Or abandonment of an option. While doing
+these prototypes, it’s important to keep your specific use case in mind. And try
+to make those prototypes close to your typical use case. For instance, are you
+usually working on highly interactive projects ? Is your main target mobile or
+desktop ? Is the size of the tool’s binary or (bundle) is of big concern for
+your company or usual target customer ? ….. etc.</p>
+<p>**Sounds Cool But ….<br>
+**You could spend forever in the above two steps going forward and backward, as
+we said at the beginning, like a kid in a candy store. So, we decided the
+following :</p>
+<ol>
+<li>As long as, there are at least tens of thousands of developers are
+recommending this technology and using it on daily basis. That means it’s
+battle tested and production ready. And also means that, it’s a viable
+option for us.</li>
+<li>If we have done enough experiments and it seems like satisfying our main
+expected use cases. Then again, it’s a viable option for us.</li>
+</ol>
+<p>For any tool that satisfies the above two conditions, There is a very high
+probability that we can’t go wrong by choosing it. So we decided to :</p>
+<ol>
+<li>Time box the whole process.</li>
+<li>When the time is up, choose whatever we felt right based on the heuristics
+and experiments we did so far.</li>
+<li>We know that we could never choose a “Perfect” stack for our cases. But
+“Good Enough” is good enough.</li>
+</ol>
+<p>This phase took us approximately 1.5 months. Till we landed our choice on a
+Technology stack. The time was up before we explore all options available, in
+great details. But as we said, we believed that we’ve achieved was “Good
+Enough”. And “Good Enough” is good enough !</p>
+<h4><a class="anchor" aria-hidden="true" id="maximizing-the-gains"></a><a href="#maximizing-the-gains" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Maximizing the gains</h4>
+<p>I find it foolish and extremely anti-productive, to use a new technology for
+each new project (Or even for each few new projects). IMHO, I believe that
+you’ve to stick to your chosen Technology stack for few years to reap the
+benefits of accumulated know-how, and stand out in a crowd. For instance, there
+are overwhelmingly huge number of Angular Fan boys out there. The same for React
+&amp; Vue.js. You can find them out there on the internet cursing at each others.
+But, there aren’t as much real experts in any of these tech stacks. Since to
+master any stack, and be extremely productive, you have to spend few years with
+your Technology. To build up on your know how about it’s weaknesses and how to
+tweak it’s performance. For instance, while going through articles, I’ve came
+across endless number of people complaining about, how their Meteor App was
+crushed under their first real production users’ wave. Well they were simply
+mostly newbies, who didn’t understand how Meteor works under the hood, and used
+all it’s neat features without understanding it’s weaknesses (Which are
+relatively easy to guard against if you know what you’re looking for).</p>
+<p>Not only you should stick to one technology to understand it well. But most
+importantly to be able to invest in your components’ and modules’ libraries as a
+seed for re-use. Such that the cost of each new project is substantially less
+than the previous one.</p>
+<p>My general advice here, is if a new technology is clearly (And everyone is
+saying it) 5–10x, better than your chosen Tech. Stack. Then go for that new kid
+in the town. Otherwise, stick to what you have and keep reaping the benefits.
+When we say 10x better, that includes, how would it be easy to find/hire
+developers who are willing to use it ? How much is it supported on client
+platforms (Browsers &amp; Mobiles … etc) ? Does it support modern devices’
+capabilities ? Would you still be competitive in the market (For services
+firms) ? And, obviously, does the new kid in the down is crushing it performance
+or productivity wise ?…..etc.</p>
+<p>Another advice, is that, for any chosen Technology Stack, there would be that
+rosy promise at the beginning. Then once you’ve started to have few thousands of
+lines-of-code, you would most probably hit your first wall with performance
+issues. Then you might be faced with some productivity issues, then…., then …
+etc. Well, in most cases, you shouldn’t panic and jump to a new Technology
+Stack. Instead, stick around, try hard to fix your issues. They’re most probably
+fixable, and if it’s being used by giant companies, then they must be facing
+what you’re facing and much worse. Just spend sometime and fix your issues,
+since the grass on the other side is always greener, and it would be always
+extremely tempting to jump to the other side.</p>
+<p>In a following article we would talk more about our approach for Re-use, and how
+to make sure that each new project is a step forward, and that it’s cost for you
+is much less than the previous one.</p>
+</span></div></div><div class="blogSocialSection"></div></div><div class="blog-recent"><a class="button" href="/blog">Recent Posts</a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/logo-icon.png" alt="Bractal" width="66" height="58"/></a><div><h5>Docs</h5><a href="https://github.com/BadrIT/bractal#getting-started">Getting Started</a><a href="https://badrit.github.io/bractal/">API Reference</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://badrit.github.io/bractal/">GitHub</a><a href="https://github.com/BadrIT/bractal#contribution">Contribute</a><a class="github-button" href="https://badrit.github.io/bractal/" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2019 Incorta</section></footer></div></body></html>
