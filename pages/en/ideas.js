@@ -35,22 +35,6 @@ function Mohamed(props) {
             <li><b>Open Dashboard Standard : </b> So, there are a lot of charting tools, but there are no well established Dashboard design/layout standard across different technologies. But each few developers have there own standard or way of doing things. And sharing the dashboards between them is near impossible without considerable amount of coding.</li>
           </ol>
         </div>
-        <div className="post">
-          <header className="postHeader">
-            <h1>Google Summer of Code</h1>
-          </header>
-          This year we've applied to Google Summer of Code as a mentoring organization,
-          We would love to see proposals after the lines of the above ideas.
-          <br/>
-          If you're interested kindly send your proposal to the following email :
-          <br/>
-          mostafa [DOT] elganainy [AT] incorta.com
-          <br/>
-          <br/>
-          Including your name, team and working experience. 
-          <br/>
-          And mention clearly which idea/direction you're interested in.
-        </div>
       </Container>
     </div>
   )
