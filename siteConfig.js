@@ -56,7 +56,7 @@ const siteConfig = {
   title: 'Bractal', // Title for your website.
   tagline: "The missing React's Modular UI Framework",
   url: 'https://your-docusaurus-test-site.com', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  baseUrl: '/bractal-website/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',

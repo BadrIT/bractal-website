@@ -20,6 +20,7 @@ class HomeSplash extends React.Component {
     const docsPart = `${docsUrl ? `${docsUrl}/` : ''}`
     const langPart = `${language ? `${language}/` : ''}`
     const docUrl = doc => `${baseUrl}${docsPart}${langPart}${doc}`
+    const splashUrl = `${baseUrl}img/home-splash.png`
 
     const SplashContainer = props => (
       <div className="homeContainer">
@@ -31,7 +32,7 @@ class HomeSplash extends React.Component {
     )
 
     const Background = props => (
-      <div className="home-page-splash"/>
+      <div className="home-page-splash" style={{'background-image': `url('${splashUrl}')`}}/>
     )
 
     const ProjectTitle = () => (

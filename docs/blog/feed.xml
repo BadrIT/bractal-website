@@ -2,21 +2,21 @@
 <rss version="2.0">
     <channel>
         <title>Bractal Blog</title>
-        <link>https://your-docusaurus-test-site.com/blog</link>
+        <link>https://your-docusaurus-test-site.com/bractal-website/blog</link>
         <description>The best place to stay up-to-date with the latest Bractal news and events.</description>
         <lastBuildDate>Sun, 11 Nov 2018 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
             <title>Bractal Blog</title>
-            <url>https://your-docusaurus-test-site.com/img/logo-icon.png</url>
-            <link>https://your-docusaurus-test-site.com/blog</link>
+            <url>https://your-docusaurus-test-site.com/bractal-website/img/logo-icon.png</url>
+            <link>https://your-docusaurus-test-site.com/bractal-website/blog</link>
         </image>
         <copyright>Copyright © 2019 Incorta</copyright>
         <item>
             <title><![CDATA[How to choose you Technical Stack]]></title>
-            <link>https://your-docusaurus-test-site.com/blog/2018/11/11/how-to-choose-you-tech-stack.html</link>
-            <guid>https://your-docusaurus-test-site.com/blog/2018/11/11/how-to-choose-you-tech-stack.html</guid>
+            <link>https://your-docusaurus-test-site.com/bractal-website/blog/2018/11/11/how-to-choose-you-tech-stack.html</link>
+            <guid>https://your-docusaurus-test-site.com/bractal-website/blog/2018/11/11/how-to-choose-you-tech-stack.html</guid>
             <pubDate>Sun, 11 Nov 2018 06:00:00 GMT</pubDate>
             <description><![CDATA[<figure name="2664" id="2664" class="graf graf--figure graf-after--h3">
 <canvas class="progressiveMedia-canvas js-progressiveMedia-canvas" width="75" height="37"></canvas>
@@ -30,8 +30,8 @@ responsibility to kickstart the product development phase.</p>
         </item>
         <item>
             <title><![CDATA[Design for Re-use]]></title>
-            <link>https://your-docusaurus-test-site.com/blog/2018/11/11/design-for-re-use.html</link>
-            <guid>https://your-docusaurus-test-site.com/blog/2018/11/11/design-for-re-use.html</guid>
+            <link>https://your-docusaurus-test-site.com/bractal-website/blog/2018/11/11/design-for-re-use.html</link>
+            <guid>https://your-docusaurus-test-site.com/bractal-website/blog/2018/11/11/design-for-re-use.html</guid>
             <pubDate>Sun, 11 Nov 2018 06:00:00 GMT</pubDate>
             <description><![CDATA[<p>This is the second article in the series of our path toward Software Delivery
 efficiency. Reading article one, is recommended, but not necessary to follow up
@@ -46,8 +46,8 @@ And ready to hit the ground running.</p>
         </item>
         <item>
             <title><![CDATA[Non-blocking Git-flow]]></title>
-            <link>https://your-docusaurus-test-site.com/blog/2018/11/07/non-blocking-git-flow.html</link>
-            <guid>https://your-docusaurus-test-site.com/blog/2018/11/07/non-blocking-git-flow.html</guid>
+            <link>https://your-docusaurus-test-site.com/bractal-website/blog/2018/11/07/non-blocking-git-flow.html</link>
+            <guid>https://your-docusaurus-test-site.com/bractal-website/blog/2018/11/07/non-blocking-git-flow.html</guid>
             <pubDate>Wed, 07 Nov 2018 06:00:00 GMT</pubDate>
             <description><![CDATA[<p>We’re following a slightly modified version of the popular gitflow approach.</p>
 <h4><a class="anchor" aria-hidden="true" id="background"></a><a href="#background" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><strong>Background</strong></h4>

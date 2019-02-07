@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://your-docusaurus-test-site.com/blog</id>
+    <id>https://your-docusaurus-test-site.com/bractal-website/blog</id>
     <title>Bractal Blog</title>
     <updated>2018-11-11T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
-    <link rel="alternate" href="https://your-docusaurus-test-site.com/blog"/>
+    <link rel="alternate" href="https://your-docusaurus-test-site.com/bractal-website/blog"/>
     <subtitle>The best place to stay up-to-date with the latest Bractal news and events.</subtitle>
-    <logo>https://your-docusaurus-test-site.com/img/logo-icon.png</logo>
+    <logo>https://your-docusaurus-test-site.com/bractal-website/img/logo-icon.png</logo>
     <rights>Copyright © 2019 Incorta</rights>
     <entry>
         <title type="html"><![CDATA[How to choose you Technical Stack]]></title>
-        <id>https://your-docusaurus-test-site.com/blog/2018/11/11/how-to-choose-you-tech-stack.html</id>
-        <link href="https://your-docusaurus-test-site.com/blog/2018/11/11/how-to-choose-you-tech-stack.html">
+        <id>https://your-docusaurus-test-site.com/bractal-website/blog/2018/11/11/how-to-choose-you-tech-stack.html</id>
+        <link href="https://your-docusaurus-test-site.com/bractal-website/blog/2018/11/11/how-to-choose-you-tech-stack.html">
         </link>
         <updated>2018-11-11T06:00:00Z</updated>
         <summary type="html"><![CDATA[<figure name="2664" id="2664" class="graf graf--figure graf-after--h3">
@@ -30,8 +30,8 @@ responsibility to kickstart the product development phase.</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[Design for Re-use]]></title>
-        <id>https://your-docusaurus-test-site.com/blog/2018/11/11/design-for-re-use.html</id>
-        <link href="https://your-docusaurus-test-site.com/blog/2018/11/11/design-for-re-use.html">
+        <id>https://your-docusaurus-test-site.com/bractal-website/blog/2018/11/11/design-for-re-use.html</id>
+        <link href="https://your-docusaurus-test-site.com/bractal-website/blog/2018/11/11/design-for-re-use.html">
         </link>
         <updated>2018-11-11T06:00:00Z</updated>
         <summary type="html"><![CDATA[<p>This is the second article in the series of our path toward Software Delivery
@@ -51,8 +51,8 @@ And ready to hit the ground running.</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[Non-blocking Git-flow]]></title>
-        <id>https://your-docusaurus-test-site.com/blog/2018/11/07/non-blocking-git-flow.html</id>
-        <link href="https://your-docusaurus-test-site.com/blog/2018/11/07/non-blocking-git-flow.html">
+        <id>https://your-docusaurus-test-site.com/bractal-website/blog/2018/11/07/non-blocking-git-flow.html</id>
+        <link href="https://your-docusaurus-test-site.com/bractal-website/blog/2018/11/07/non-blocking-git-flow.html">
         </link>
         <updated>2018-11-07T06:00:00Z</updated>
         <summary type="html"><![CDATA[<p>We’re following a slightly modified version of the popular gitflow approach.</p>
